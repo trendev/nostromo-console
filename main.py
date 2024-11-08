@@ -10,7 +10,7 @@ messages = [
 
 
 def chat_with_mother():
-    print("MU-TH-UR: Initializing...\n")
+    print("\033[1;32;40mMU-TH-UR: Initializing...")
     while True:
         # Get user input
         user_input = input("ENTER QUERY: ")
